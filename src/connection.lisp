@@ -4,15 +4,13 @@
 (defvar *host* "datafeeds.networkrail.co.uk")
 (defvar *port* 61618)
 (defvar *username*
-  (car (cl-strings:split
-        (alexandria:read-file-into-string
-         (project-relative-pathname #p"../config"))
-        #\Newline)))
+  (car
+   (cl-strings:split
+    (alexandria:read-file-into-string (project-relative-pathname #p"../config")) #\Newline)))
 (defvar *passcode*
-  (cadr (cl-strings:split
-         (alexandria:read-file-into-string
-          (project-relative-pathname #p"../config"))
-         #\Newline)))
+  (cadr
+   (cl-strings:split
+    (alexandria:read-file-into-string (project-relative-pathname #p"../config")) #\Newline)))
 
 (defun make-connection ()
   (cl-stomp:make-connection *host* *port*))
