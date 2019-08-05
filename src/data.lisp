@@ -5,8 +5,7 @@
                  #.(or *compile-file-truename* *load-truename*)
                  :type nil
                  :name nil
-                 :version nil)
-  )
+                 :version nil))
 
 (defun project-relative-pathname (relative-spec)
   (truename
@@ -15,10 +14,7 @@
     (project-base-directory))))
 
 (defun stanme-csv-pathname ()
-  (truename
-   (merge-pathnames
-    #p"../data/stanme-codes.csv"
-    (project-base-directory))))
+  (project-relative-pathname #p"../data/stanme-codes.csv"))
 
 (defvar *stanme-codes*
   (let ((raw (cl-csv:read-csv (stanme-csv-pathname) :skip-first-p t))
@@ -29,10 +25,7 @@
     hash-table))
 
 (defun area-ids-pathname ()
-  (truename
-   (merge-pathnames
-    #p"../data/area-ids.csv"
-    #.(or *compile-file-truename* *load-truename*))))
+  (project-relative-pathname #p"../data/area-ids.csv"))
 
 (defvar *area-ids*
   (let ((raw (cl-csv:read-csv (area-ids-pathname) :skip-first-p t))
