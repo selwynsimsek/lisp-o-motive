@@ -1,0 +1,188 @@
+ID,Name,Topic,SIG,RTE,TRS,TRK,PTS,LXG,Commissioning
+A2,Ashford IECC B,TD_KENT_MCC_SIG_AREA,✔,✔,✔,,,,
+A3,Ashford Front-End TD,TD_KENT_MCC_SIG_AREA,✔,✔,,,,,
+AD,Ashford IECC A,TD_KENT_MCC_SIG_AREA,✔,✔,✔,,,,
+AL,Alnmouth,TD_LNE_NE_SIG_AREA,,,,,,,
+AN,Allington Junction,TD_MC_EM_SIG_AREA,✔,,,,,,
+AS,Aston SCC TD,TD_LNW_WMC_SIG_AREA,✔,✔,✔,,,,
+AW,Acton Wells,TD_ANG_SIG_AREA,✔,✔,,,✔,,
+BA,Barnsley,TD_LNE_NE_SIG_AREA,,,,,,,
+BE,Basingstoke,TD_WESS_SIG_AREA,✔,✔,✔,✔,,,
+BG,WMSC Bromsgrove Corridor WestCAD,TBD,✔,✔,,,,,07/11/2016
+BL,Bristol PSB ITD,TD_WWC_SIG_AREA,,,,,,,
+BM,Barnham,TD_SUSS_SIG_AREA,✔,✔,✔,,,,
+BN,Birmingham New Street PSB,TD_LNW_WMC_SIG_AREA,,,,,,,Planned decommissioning 26/12/2021
+BP,Basingstoke (Poole - Wool),TD_WESS_SIG_AREA,✔,✔,,,✔,,
+BS,Barnes,TD_WESS_SIG_AREA,✔,✔,,✔,,,
+BU,EMCC Burton Area WestCAD,TBD,✔,✔,,,,✔,17/08/2018*
+BX,Basingstoke (WoE),TD_WESS_SIG_AREA,✔,✔,✔,✔,,,
+C1,SWCC Newport Corridor WestCAD,TD_WWM_SIG_AREA,✔,✔,✔,,,,
+C2,SWCC Cardiff Area MCS,TD_WWM_SIG_AREA,✔,✔,✔,✔,✔,,
+C3,SWCC Shrewsbury North WestCAD,TD_WWM_SIG_AREA,✔,✔,,,,,
+C4,WROC Shrewsbury-Newport,TBD,?,?,?,?,?,?,Planned 2022
+C5,WROC North Wales Coast WestCAD,TBD,✔,✔,,,,,09/03/2018*
+C6,SWCC Swansea Area WestCAD,TBD,✔,✔,,✔,,,26/02/2019*
+CA,Cambridge PSB,TD_ANG_SIG_AREA,✔,✔,,✔,✔,,
+CC,Colchester,TD_ANG_SIG_AREA,✔,✔,,✔,✔,,
+CD,Castleford,TD_LNE_NE_SIG_AREA,,,,,,,
+CE,Crewe PSB,TD_LNW_C_SIG_AREA,✔,✔,✔,,,,
+CH,Chichester,TD_SUSS_SIG_AREA,,✔,✔,,,,
+CL,Carlisle PSB TD,TD_LNW_LC_SIG_AREA,,,,,,,
+CS,Chester PSB,TD_LNW_C_SIG_AREA,,,,,,,
+CT,Channel Tunnel,TD_KENT_MCC_SIG_AREA,✔,,,,,,
+CV,WMSC Cherwell Valley WestCAD,TD_LNW_WMC_SIG_AREA,✔,✔,,,,,08/08/2016
+CY,WMSC Coventry WestCAD,TD_LNW_WMC_SIG_AREA,✔,✔,✔,,,,
+D0,TVSC Temple Meads IECC,TBD,✔,✔,✔,✔,,,29/03/2018*
+D1,TVSC Reading IECC A,TD_WTV_SIG_AREA,✔,✔,✔,✔,,,
+D2,TVSC Reading IECC B,TD_WTV_SIG_AREA,✔,✔,✔,✔,,,
+D3,TVSC Paddington IECC,TD_WTV_SIG_AREA,✔,✔,✔,✔,,,
+D4,TVSC Hayes IECC,TD_WTV_SIG_AREA,✔,✔,✔,✔,,,
+D5,TVSC Didcot IECC,TD_WWC_SIG_AREA,✔,✔,✔,✔,,,
+D6,TVSC Maidenhead IECC,TD_WTV_SIG_AREA,✔,✔,,✔,,,
+D7,TVSC Swindon IECC,TD_WWC_SIG_AREA,✔,✔,,✔,,,
+D9,TVSC Stoke Gifford IECC,TD_WTV_SIG_AREA,✔,✔,,✔,,,30/08/2016
+DR,Doncaster PSB TD,TD_LNE_GN_SIG_AREA,,,,,,,
+DY,EMCC Derby Area WestCAD,TBD,✔,✔,✔,✔,,,03/09/2018
+E1,Edgeley No 1,TD_LNW_C_SIG_AREA,,✔,,,,,
+EA,Edinburgh IECC A,TD_SE_SIG_AREA,✔,✔,✔,,,,
+EB,Edinburgh IECC B,TD_SE_SIG_AREA,✔,✔,✔,✔,,,
+EC,Edinburgh IECC C,TD_SE_SIG_AREA,✔,✔,✔,✔,,,
+ED,Edinburgh IECC D,TD_SE_SIG_AREA,✔,✔,✔,✔,,,
+EH,Eastleigh,TD_WESS_SIG_AREA,✔,✔,✔,✔,✔,✔,
+EK,East Kent MCS ITD,TD_KENT_MCC_SIG_AREA,✔,✔,✔,✔,✔,✔,
+EN,Cambridge IECC (Ely - Norwich),TD_ANG_SIG_AREA,✔,✔,,✔,,✔,
+ES,TBROC East Sussex MCS,TD_SUSS_SIG_AREA,✔,✔,✔,✔,✔,✔,Planned decommissioning 02/12/2019
+EX,Exeter,TD_WWC_SIG_AREA,,✔,,,,,
+F2,Feltham (Shepperton Branch) IECC,TBD,?,?,?,?,?,?,23/06/2019*
+FE,Ferrybridge,TD_LNE_GN_SIG_AREA,✔,✔,,,✔,,
+FH,Feltham ASC TD,TD_WESS_SIG_AREA,,✔,,,,,
+G1,WSSC Glasgow Area WestCAD,TD_SW_SIG_AREA,✔,✔,✔,,✔,,
+G2,WSSC Paisley ITD,TD_SW_SIG_AREA,✔,✔,✔,✔,✔,,
+G3,WSSC Newton/Whifflet Area WestCAD,TBD,✔,✔,,✔,,,18/04/2017
+G4,WSSC Motherwell/Carstairs Area WestCAD,TBD,✔,✔,,✔,,,16/08/2018*
+GD,Guildford,TD_WESS_SIG_AREA,,,,,,,
+GL,Gloucester ITD,TD_WWC_SIG_AREA,,,,,,,
+HG,Harrogate IECC,TD_LNE_NE_SIG_AREA,✔,✔,,,✔,✔,
+HN,Heaton Norris,TD_LNW_C_SIG_AREA,,✔,,,,,
+HT,Havant,TD_WESS_SIG_AREA,✔,✔,✔,,,,
+IH,Inverness Highlands WestCAD,TBD,✔,✔,,✔,,,05/12/2017*
+KG,EMCC Kettering Area WestCAD,TBD,✔,✔,✔,,,,21/02/2018*
+KN,WMSC Kings Norton WestCAD,TBD,✔,✔,,,,,07/11/2016
+KX,Kings Cross,TD_LNE_GN_SIG_AREA,,,,,,,Planned decommissioning 03/2020
+L2,Lincoln East,TD_MC_EM_SIG_AREA,✔,✔,,,,,
+LA,Lancing,TD_SUSS_SIG_AREA,,✔,,,,,
+LB,London Bridge ASC TD,TD_KENT_MCC_SIG_AREA,,✔,✔,,,,
+LC,WMSC Leamington Corridor,TD_LNW_WMC_SIG_AREA,✔,✔,✔,,,,
+LN,Lincoln,TD_MC_EM_SIG_AREA,✔,✔,✔,,,,
+LR,EMCC Leicester Area WestCAD,TD_MC_EM_SIG_AREA,✔,✔,✔,✔,,,
+LS,Liverpool Street,TD_ANG_SIG_AREA,✔,✔,✔,✔,,,Planned decommissioning 11/2019
+M0,MRROC Lime Street WestCAD,TBD,✔,✔,✔,,,,26/07/2018*
+M1,MRROC Liverpool Area WestCAD,TD_LNW_C_SIG_AREA,✔,✔,,,,,
+M2,MRROC Manchester North WestCAD,TD_LNW_C_SIG_AREA,✔,✔,,,,,
+M3,MRROC Manchester Central WestCAD,TD_LNW_C_SIG_AREA,✔,✔,✔,,,,
+M4,MRROC Wavertree WestCAD,TBD,✔,✔,,,,,07/05/2018*
+M5,MRROC Wavertree West Area WestCAD,TBD,✔,✔,,,,,19/12/2018*
+M6,MRROC Macclesfield,TBD,?,?,?,?,?,?,Planned 08/2022
+M9,MRROC Blackpool Area WestCAD,TBD,✔,✔,,,,,29/01/2018
+MA,Maidstone East,TD_KENT_MCC_SIG_AREA,,✔,,,,,
+MD,EMCC Mansfield,TD_MC_EM_SIG_AREA,✔,✔,✔,,,,
+ME,Marylebone Chilterns IECC,TD_LNW_WMC_SIG_AREA,✔,✔,✔,✔,,,
+MH,Machynlleth,TD_WWM_SIG_AREA,✔,✔,✔,,,,
+ML,Motherwell PSB TD,TD_SW_SIG_AREA,✔,✔,✔,,,,
+MO,Morpeth,TD_LNE_NE_SIG_AREA,,,,,,,
+MP,Manchester Piccadilly PSB TD,TD_LNW_C_SIG_AREA,✔,✔,✔,✔,,,
+MS,Manchester South,TD_LNW_C_SIG_AREA,,✔,✔,,,,
+MZ,Manchester East WestCAD,TD_LNW_C_SIG_AREA,✔,✔,,✔,✔,,
+NE,EMCC North Erewash Area WestCAD,TD_MC_EM_SIG_AREA,✔,✔,,,,,
+NJ,Neasden Jn TD,TBD,?,?,?,?,?,?,2016
+NK,North Kent,TD_KENT_MCC_SIG_AREA,✔,✔,✔,✔,✔,,
+NL,"Colchester ""Norwich-Lowestoft""",TBD,?,?,?,?,?,?,Planned 17/02/2020
+NM,EMCC Nottingham WestCAD,TD_MC_EM_SIG_AREA,✔,✔,✔,,,,
+NS,WMSC New Street Station WestCAD,TBD,?,?,?,?,?,?,Planned 26/12/2021
+NX,East London Line,TD_ANG_SIG_AREA,?,?,?,?,?,?,
+PB,Peterborough,TD_LNE_GN_SIG_AREA,,,,,,,Planned decommissioning 12/2021
+PH,Plymouth,TD_WWC_SIG_AREA,,,,,,,
+PJ,WMSC Proof House Jn WestCAD,TBD,✔,✔,,,,,17/12/2017*
+PT,Port Talbot,TD_WWM_SIG_AREA,,,,,,,
+PX,Preston PSB TD,TD_LNW_LC_SIG_AREA,,,,,,,
+Q0,ROROC Crossrail RCC (Core),TBD,?,?,?,?,?,?,"14/02/2019* first online, offline as of 15/02/2019"
+Q1,ROROC Stratford IECC,TBD,✔,✔,✔,✔,,,06/11/2016
+Q2,ROROC Shenfield IECC,TBD,✔,✔,✔,✔,,,26/02/2017
+Q3,ROROC West Anglia Area IECC,TBD,✔,✔,✔,✔,,✔,08/03/2019*
+Q4,ROROC Liverpool Street Area IECC,TBD,✔,✔,✔,✔,,,Planned 11/2019
+R1,Rugby SCC (Watford - Bletchley ITD),TD_WCS_SIG_AREA,✔,✔,✔,✔,✔,,
+R2,Rugby SCC (Northampton - Rugby ITD),TD_WCS_SIG_AREA,✔,✔,✔,✔,✔,,
+R3,RYROC Stafford Area WestCAD,TBD,✔,✔,,,,,01/09/2015
+RA,Radyr,TD_WWM_SIG_AREA,,,,,,,
+RT,Ridgmont,TD_WCS_SIG_AREA,✔,✔,,✔,✔,✔,
+RW,Rochdale West,TD_LNW_C_SIG_AREA,✔,✔,✔,,,,
+SC,Scunthorpe,TD_LNE_GN_SIG_AREA,,,,,,,
+SJ,WMSC Stourbridge WestCAD,TD_LNW_WMC_SIG_AREA,✔,✔,✔,,,,
+SK,Stoke On Trent,TD_LNW_C_SIG_AREA,✔,✔,✔,✔,✔,,
+SM,Stirling Middle,TD_SE_SIG_AREA,✔,✔,,,,,
+SO,South Tottenham,TD_ANG_SIG_AREA,,,,,,,
+SS,Merseyrail IECC,TD_LNW_C_SIG_AREA,✔,✔,✔,✔,,,
+SU,Surbiton (Woking),TD_WESS_SIG_AREA,,✔,,,,,
+SV,WMSC Stour Valley WestCAD,TBD,✔,✔,,,,,17/12/2017*
+SX,Saxmundham,TD_ANG_SIG_AREA,✔,✔,,✔,✔,,
+T1,Tyneside 1 IECC,TD_LNE_NE_SIG_AREA,✔,✔,✔,,,,
+T2,Tyneside 2 IECC,TD_LNE_NE_SIG_AREA,✔,✔,✔,,,,
+TB,Three Bridges ASC ITD,TD_SUSS_SIG_AREA,,✔,✔,,,,
+TD,WMSC Telford,TD_LNW_WMC_SIG_AREA,✔,✔,✔,,,,
+TE,Tonbridge,TD_KENT_MCC_SIG_AREA,✔,✔,,,,,
+TH,Thrumpton,TD_LNE_GN_SIG_AREA,✔,✔,,,,,
+TN,EMCC Chesterfield Area WestCAD,TD_MC_EM_SIG_AREA,✔,✔,,✔,,,
+TW,Tweedmouth,TD_LNE_NE_SIG_AREA,,,,,,,
+TY,Tees Yard (Ryhope),TD_LNE_NE_SIG_AREA,✔,✔,✔,,,,
+U2,Upminster 2 IECC,TD_ANG_SIG_AREA,✔,✔,✔,✔,,,
+U3,Upminster 3 IECC,TD_ANG_SIG_AREA,✔,✔,✔,✔,,,
+UR,Upminster A IECC,TD_ANG_SIG_AREA,✔,✔,✔,✔,,,
+VC,London Victoria,TD_SUSS_SIG_AREA,,✔,✔,,,,
+W2,Woking (Farnham),TD_WESS_SIG_AREA,✔,✔,✔,,,,
+WA,Warrington PSB,TD_LNW_C_SIG_AREA,✔,✔,,,,,
+WC,Wembley C Sidings,,,,,,,,07/06/2015
+WD,Winsford PSB,TD_LNW_C_SIG_AREA,,,,,,,
+WE,Worksop,TD_LNE_GN_SIG_AREA,✔,,,,,,
+WH,West Hampstead PSB,TD_MC_EM_SIG_AREA,,,,,,,
+WI,Wimbledon NCP,TD_WESS_SIG_AREA,✔,✔,✔,,,,
+WJ,Wembley Mainline (Watford) WestCAD,TD_WCS_SIG_AREA,✔,✔,,,,,
+WK,Wakefield Kirkgate,TD_LNE_NE_SIG_AREA,,,,,,,
+WL,WMSC Walsall WestCAD,TBD,✔,✔,✔,,,,
+WN,WMSC Water Orton WestCAD,TD_LNW_WMC_SIG_AREA,✔,✔,,,,,
+WO,WMSC Wolverhampton WestCAD,TD_LNW_WMC_SIG_AREA,✔,✔,,,,,
+WS,Willesden Suburban,TD_WCS_SIG_AREA,,,,,,,
+WW,Westbury,TD_WWC_SIG_AREA,,✔,,,,,
+WY,Wembley,TD_WCS_SIG_AREA,,,,,,,
+X0,TBROC Thameslink Core WestCAD,TD_SUSS_SIG_AREA,✔,✔,✔,✔,,,15/03/2015
+X1,TBROC London Bridge Central WestCAD,TD_SUSS_SIG_AREA,✔,✔,✔,✔,,,05/01/2015
+X2,TBROC Charing Cross WestCAD,TBD,✔,✔,✔,✔,,,04/01/2016
+X3,TBROC Cannon Street WestCAD,TBD,✔,✔,✔,✔,,,30/08/2016
+X5,TBROC Sutton Area WestCAD,TBD,✔,✔,✔,✔,,,09/03/2018*
+X6,TBROC Streatham Area WestCAD,TBD,✔,✔,,✔,,,03/05/2016
+X7,TBROC East Sussex MCS,TBD,✔,✔,,✔,✔,✔,Planned 02/12/2019
+XB,Macclesfield,TD_LNW_C_SIG_AREA,,,,,,,Planned decommissioning 08/2022
+XE,Warrington Central,TD_LNW_C_SIG_AREA,,,,,,,
+XL,Hunts Cross,TD_LNW_C_SIG_AREA,,,,,,,
+Y0,YKROC North Lincs WestCAD,TBD,✔,✔,✔,✔,,,30/12/2015
+Y1,YKROC York Area IECC,TBD,✔,✔,✔,✔,,✔,25/12/2018*
+Y2,YKROC Leeds City Area IECC,TBC (LNE_NE),✔,✔,✔,✔,,,25/12/2018*
+Y3,YKROC Leeds North West Area IECC,TBC (LNE_NE),✔,✔,✔,✔,,,25/12/2018*
+Y4,YKROC Sheffield WestCAD,TBD,✔,✔,✔,✔,,,02/05/2016
+Y5,YKROC Brough WestCAD,TBD,✔,✔,,,,,07/11/2018*
+Y6,YKROC Huddersfield WestCAD,TBD,✔,✔,✔,✔,,,18/01/2018*
+Y7,YKROC Halifax WestCAD,TBD,✔,✔,✔,✔,,,17/10/2018*
+Y8,YKROC Kings Cross North WestCAD,TBD,✔,✔,,,✔,,26/11/2018*
+Y9,YKROC Kings Cross South,TBD,?,?,?,?,?,?,Planned 03/2020
+YA,YKROC Bowesfield & Hartlepool WestCAD,TBD,?,?,?,?,?,?,08/03/2019*
+YB,YKROC Middlesborough,TBD,?,?,?,?,?,?,Planned 07/2021
+YC,YKROC Peterborough,TBD,?,?,?,?,?,?,Planned 12/2021
+YD,YKROC Tyneside 1,TBD,?,?,?,?,?,?,Planned 05/2022
+YE,YKROC Tyneside 2,TBD,?,?,?,?,?,?,Planned 05/2022
+YO,Yoker SCC MCS,TD_SW_SIG_AREA,✔,✔,✔,✔,✔,,
+ZA,Ashford TDC,TD_KENT_MCC_SIG_AREA,,,,,,,
+ZB,Bournemouth TDC,TD_WESS_SIG_AREA,,✔,,,,,
+ZE,Eastbourne TDC,TD_SUSS_SIG_AREA,,,,,,,Planned decommissioning 02/12/2019
+ZG,Guildford TDC,TD_WESS_SIG_AREA,✔,✔,,,,,
+ZH,Horsham TDC,TD_SUSS_SIG_AREA,,,,,,,
+ZR,Rainham TDC,TD_KENT_MCC_SIG_AREA,,,,,,,
+ZY,Yeovil TDC,TD_WESS_SIG_AREA,✔,✔,✔,,,,
