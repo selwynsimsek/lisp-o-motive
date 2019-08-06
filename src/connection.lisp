@@ -18,7 +18,8 @@
 (defun start-connection (connection &key (passcode *passcode*) (username *username*))
   (cl-stomp:start connection :passcode passcode :username username))
 
-(defun topics () '("/topic/TD_WESS_SIG_AREA"))
+(defun topics () '(;"/topic/TD_WESS_SIG_AREA"
+                   "/topic/TRAIN_MVT_EX_TOC"))
 
 (defun setup-connection ()
   (let ((connection (make-connection)))

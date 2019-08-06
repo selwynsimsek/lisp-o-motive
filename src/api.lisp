@@ -51,3 +51,6 @@
 
 (defmethod message-recieved ((message train-describer-message))
   (format t "~a~%" message))
+
+(defmethod message-recieved ((message train-movements-message))
+  (format t "~a~%" message))
