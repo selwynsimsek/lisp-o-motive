@@ -8,7 +8,7 @@
 (defclass train-activation (train-movements-message)
   ((schedule-source :initarg :schedule-source)
    (train-file-address :initarg :train-file-address)
-   (schedule-end-date :initarg :schedule-end-data)
+   (schedule-end-date :initarg :schedule-end-date)
    (train-id :initarg :train-id)
    (tp-origin-timestamp :initarg :tp-origin-timestamp)
    (creation-timestamp :initarg :creation-timestamp)
