@@ -23,6 +23,7 @@
                  (:file "connection" :depends-on ("data"))
                  (:file "process")
                  (:file "api")
+                 (:file "train-movements" :depends-on ("api"))
                  (:file "format"))))
   :description ""
   :long-description

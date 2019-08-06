@@ -5,16 +5,6 @@
 (defclass network-rail-message (rail-message) ())
 (defclass network-rail-enquiries-message (rail-message) ())
 (defclass real-time-ppm (network-rail-message) ())
-(defclass train-movements-message (network-rail-message) ())
-
-(defclass train-activation (train-movements-message) ())
-(defclass train-cancellation (train-movements-message) ())
-(defclass train-movement (train-movements-message) ())
-(defclass train-reinstatement (train-movements-message) ())
-(defclass change-of-origin (train-movements-message) ())
-(defclass change-of-identity (train-movements-message) ())
-(defclass change-of-location (train-movements-message) ())
-
 (defclass train-describer-message (network-rail-message) ())
 
 (defclass berth-step (train-describer-message)
@@ -53,10 +43,8 @@
 (defclass signalling-refresh-finished (s-class-mixin)
   ())
 
-(defclass very-short-term-plan (network-rail-message) ()
-  )
-(defclass temporary-speed-restriction (network-rail-message) ()
-  )
+(defclass very-short-term-plan (network-rail-message) ())
+(defclass temporary-speed-restriction (network-rail-message) ())
 
 (defgeneric message-recieved (message))
 ;;; private
