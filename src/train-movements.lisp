@@ -5,7 +5,6 @@
    (message-queue-timestamp :initarg :msg-queue-timestamp)
    (source-system-id :initarg :source-system-id)))
 
-
 (defclass train-activation (train-movements-message)
   ((schedule-source :initarg :schedule-source)
    (train-file-address :initarg :train-file-address)
