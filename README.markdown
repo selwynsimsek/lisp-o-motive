@@ -25,7 +25,7 @@ xxx
 
 and lisp-o-motive will read the credentials upon being loaded.
 
-3.  Establish a connection using `(lisp-o-motive::setup-connection)`.
+4.  Establish a connection using `(lisp-o-motive::setup-connection)`.
 
 # Installation
 
