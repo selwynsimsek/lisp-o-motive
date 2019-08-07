@@ -3,7 +3,9 @@
 ![A locomotive](./data/cover-picture.jpg "A locomotive")
 
 A library for accessing the British Network Rail data feeds.  
+
 Find out about them here: [Open Rail Data](https://wiki.openraildata.com/index.php?title=Main_Page)  
+
 This is a work in progress. At the moment the Train Describer and Train Movements feeds are supported.
 
 ## Usage
