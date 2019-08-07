@@ -24,11 +24,11 @@ xxx
 
 # Installation
 
-1. Clone to ~/quicklisp/local-projects.  
+1. Clone to `~/quicklisp/local-projects`.  
 
 2. `(ql:quickload :lisp-o-motive)`  
 
-There is an [issue](https://gitlab.common-lisp.net/cl-stomp/cl-stomp/commit/bb311b8692bee3b35d5a9c036fa4f56ca7e80862) with the version of cl-stomp in Quicklisp at the time of writing that can prevent connections from being established; you may like to install a recent version of [cl-stomp](https://gitlab.common-lisp.net/cl-stomp/cl-stomp) to ~/quicklisp/local-projects.
+There is an [issue](https://gitlab.common-lisp.net/cl-stomp/cl-stomp/commit/bb311b8692bee3b35d5a9c036fa4f56ca7e80862) with the version of cl-stomp in Quicklisp at the time of writing that can prevent connections from being established; you may like to install a recent version of [cl-stomp](https://gitlab.common-lisp.net/cl-stomp/cl-stomp) to `~/quicklisp/local-projects`.
 
 ## Author
 
