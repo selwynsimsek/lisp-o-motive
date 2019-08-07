@@ -13,7 +13,7 @@ This is a work in progress. At the moment the Train Describer and Train Movement
 ```lisp
 (setf lisp-o-motive::*username* "selwyn@example.com" lisp-o-motive::*passcode* "xxx")
 ```
- You can avoid the hassle of doing this every time by storing your username and passcode in <project-root>/config:
+ You can avoid the hassle of doing this every time by storing your username and passcode in `<project-root>/config`:
 ```
 selwyn@example.com
 xxx
