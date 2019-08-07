@@ -9,10 +9,11 @@ Find out about them here: [Open Rail Data](https://wiki.openraildata.com/index.p
 This is a work in progress. At the moment the Train Describer and Train Movements feeds are supported.
 
 ## Usage
+1.  `(ql:quickload :lisp-o-motive)`
+ 
+2.  Ensure you have a Network Rail data feeds account, you can sign up [here](https://datafeeds.networkrail.co.uk/ntrod/login).
 
-1.  Ensure you have a Network Rail data feeds account, you can sign up [here](https://datafeeds.networkrail.co.uk/ntrod/login).
-
-2.  Add your data feeds account credentials: 
+3.  Add your data feeds account credentials: 
 ```lisp
 (setf lisp-o-motive::*username* "selwyn@example.com" lisp-o-motive::*passcode* "xxx")
 ```
@@ -28,11 +29,9 @@ and lisp-o-motive will read the credentials upon being loaded.
 
 # Installation
 
-1.  Clone to `~/quicklisp/local-projects`.  
+Clone to `~/quicklisp/local-projects`.    
 
-2.  `(ql:quickload :lisp-o-motive)`  
-
-    There is an [issue](https://gitlab.common-lisp.net/cl-stomp/cl-stomp/commit/bb311b8692bee3b35d5a9c036fa4f56ca7e80862) with the version of cl-stomp in Quicklisp at the time of writing that can prevent connections from being established; you may like to install a recent version of [cl-stomp](https://gitlab.common-lisp.net/cl-stomp/cl-stomp) to `~/quicklisp/local-projects`.
+There is an [issue](https://gitlab.common-lisp.net/cl-stomp/cl-stomp/commit/bb311b8692bee3b35d5a9c036fa4f56ca7e80862) with the version of cl-stomp in Quicklisp at the time of writing that can prevent connections from being established; you may like to install a recent version of [cl-stomp](https://gitlab.common-lisp.net/cl-stomp/cl-stomp) to `~/quicklisp/local-projects`.
 
 ## Author
 
