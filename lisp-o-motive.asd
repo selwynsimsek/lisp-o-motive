@@ -24,7 +24,7 @@
                  (:file "process")
                  (:file "api")
                  (:file "train-movements" :depends-on ("api"))
-                 (:file "format"))))
+                 (:file "format" :depends-on ("api" "train-movements")))))
   :description ""
   :long-description
   #.(read-file-string

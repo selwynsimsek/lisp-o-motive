@@ -1,15 +1,17 @@
+(in-package :lisp-o-motive)
+
 (defclass train-movements-message (network-rail-message)
   ((source-dev-id :initarg :source-dev-id)
    (user-id :initarg :user-id)
    (original-data-source :initarg :original-data-source)
    (message-queue-timestamp :initarg :msg-queue-timestamp)
-   (source-system-id :initarg :source-system-id)))
+   (source-system-id :initarg :source-system-id)
+   (train-id :initarg :train-id)))
 
 (defclass train-activation (train-movements-message)
   ((schedule-source :initarg :schedule-source)
    (train-file-address :initarg :train-file-address)
    (schedule-end-date :initarg :schedule-end-date)
-   (train-id :initarg :train-id)
    (tp-origin-timestamp :initarg :tp-origin-timestamp)
    (creation-timestamp :initarg :creation-timestamp)
    (tp-origin-stanox :initarg :tp-origin-stanox)
@@ -35,7 +37,6 @@
    (location-stanox :initarg :loc-stanox)
    (cancellation-timestamp :initarg :canx-timestamp)
    (cancellation-reason-code :initarg :canx-reason-code)
-   (train-id :initarg :train-id)
    (origin-location-timestamp :initarg :orig-loc-timestamp)
    (cancellation-type :initarg :canx-type)))
 
@@ -57,7 +58,6 @@
    (platform :initarg :platform)
    (division-code :initarg :division-code)
    (train-terminated-p :initarg :train-terminated)
-   (train-id :initarg :train-id)
    (offroute-p :initarg :offroute-ind)
    (variation-status :initarg :variation-status)
    (train-service-code :initarg :train-service-code)
@@ -79,7 +79,6 @@
    (departure-timestamp :initarg :dep-timestamp)
    (division-code :initarg :division-code)
    (location-stanox :initarg :loc-stanox)
-   (train-id :initarg :train-id)
    (original-location-stanox :initarg :original-loc-stanox)
    (reinstatement-timestamp :initarg :reinstatement-timestamp)))
 
@@ -94,7 +93,6 @@
    (change-of-origin-timestamp :initarg :coo-timestamp)
    (division-code :initarg :division-code)
    (location-stanox :initarg :loc-stanox)
-   (train-id :initarg :train-id)
    (original-location-stanox :initarg :original-loc-stanox)))
 
 (defclass change-of-identity (train-movements-message)
@@ -102,7 +100,6 @@
    (train-file-address :initarg :train-file-address)
    (train-service-code :initarg :train-service-code)
    (revised-train-id :initarg :revised-train-id)
-   (train-id :initarg :train-id)
    (event-timestamp :initarg :event-timestamp)))
 
 (defclass change-of-location (train-movements-message)
@@ -112,6 +109,8 @@
    (train-service-code :initarg :train-service-code)
    (departure-timestamp :initarg :dep-timestamp)
    (location-stanox :initarg :loc-stanox)
-   (train-id :initarg :train-id)
    (original-location-stanox :initarg :original-loc-stanox)
    (event-timestamp :initarg :event-timestamp)))
+
+(defmethod message-recieved ((message train-movements-message))
+  (format t "~a~%" message))

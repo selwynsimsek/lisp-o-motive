@@ -15,9 +15,10 @@
 (defmethod print-object ((m train-movements-message) stream)
   (print-unreadable-object
       (m stream :type t :identity t)
-    (with-slots (message-queue-timestamp) m
-      (format stream "~a"
-              (format-timestamp message-queue-timestamp)))))
+    (with-slots (message-queue-timestamp train-id) m
+      (format stream "~a ~a"
+              (format-timestamp message-queue-timestamp)
+              train-id))))
 
 (defmethod print-object ((m train-movement) stream)
   (print-unreadable-object
@@ -27,4 +28,14 @@
               (format-timestamp message-queue-timestamp)
               train-id
               (gethash (parse-integer location-stanox)
+                       *stanme-codes*)))))
+
+(defmethod print-object ((m train-activation) stream)
+  (print-unreadable-object
+      (m stream :type t :identity t)
+    (with-slots (train-id schedule-origin-stanox origin-departure-timestamp) m
+      (format stream "~a ~a ~a" 
+              (format-timestamp origin-departure-timestamp)
+              train-id
+              (gethash (parse-integer schedule-origin-stanox)
                        *stanme-codes*)))))

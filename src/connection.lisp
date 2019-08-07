@@ -19,7 +19,8 @@
   (cl-stomp:start connection :passcode passcode :username username))
 
 (defun topics () '(;"/topic/TD_WESS_SIG_AREA"
-                   "/topic/TRAIN_MVT_EX_TOC"))
+                   ;"/topic/TRAIN_MVT_EX_TOC"
+                   "/topic/TRAIN_MVT_ALL_TOC"))
 
 (defun setup-connection ()
   (let ((connection (make-connection)))
