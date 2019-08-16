@@ -15,6 +15,7 @@
                :jsown
                :cl-strings
                :local-time
+               :cl-annot
                :cl-csv)
   :components ((:module "src"
                 :components

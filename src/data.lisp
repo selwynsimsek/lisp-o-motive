@@ -1,6 +1,6 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 (in-package :lisp-o-motive)
-
+(cl-annot:enable-annot-syntax)
 (defun project-base-directory ()
   (make-pathname :defaults #.(or *compile-file-truename* *load-truename*)
                  :type nil :name nil :version nil))
@@ -9,7 +9,7 @@
   (truename (merge-pathnames relative-spec (project-base-directory))))
 
 (defun stanme-csv-pathname () (project-relative-pathname #p"../data/stanme-codes.csv"))
-
+@export
 (defvar *stanme-codes*
   (let ((raw (cl-csv:read-csv (stanme-csv-pathname) :skip-first-p t))
         (hash-table (make-hash-table)))
@@ -19,7 +19,7 @@
     hash-table))
 
 (defun area-ids-pathname () (project-relative-pathname #p"../data/area-ids.csv"))
-
+@export
 (defvar *area-ids*
   (let ((raw (cl-csv:read-csv (area-ids-pathname) :skip-first-p t))
         (hash-table (make-hash-table :test #'equal)))

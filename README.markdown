@@ -15,7 +15,7 @@ This is a work in progress. At the moment the Train Describer and Train Movement
 
 3.  Add your data feeds account credentials: 
 ```lisp
-(setf lisp-o-motive::*username* "selwyn@example.com" lisp-o-motive::*passcode* "xxx")
+(setf lisp-o-motive:*username* "selwyn@example.com" lisp-o-motive:*passcode* "xxx")
 ```
 You can avoid the hassle of doing this every time by storing your username and passcode in `<project-root>/config`:
 ```
@@ -25,7 +25,7 @@ xxx
 
 and lisp-o-motive will read the credentials upon being loaded.
 
-4.  Establish a connection using `(lisp-o-motive::setup-connection)`.
+4.  Establish a connection using `(lisp-o-motive:setup-connection)`.
 
 # Installation
 

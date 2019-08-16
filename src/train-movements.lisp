@@ -1,5 +1,6 @@
 (in-package :lisp-o-motive)
-
+(cl-annot:enable-annot-syntax)
+@export
 (defclass train-movements-message (network-rail-message)
   ((source-dev-id :initarg :source-dev-id)
    (user-id :initarg :user-id)
@@ -7,7 +8,7 @@
    (message-queue-timestamp :initarg :msg-queue-timestamp)
    (source-system-id :initarg :source-system-id)
    (train-id :initarg :train-id)))
-
+@export
 (defclass train-activation (train-movements-message)
   ((schedule-source :initarg :schedule-source)
    (train-file-address :initarg :train-file-address)
@@ -26,7 +27,7 @@
    (schedule-origin-stanox :initarg :sched-origin-stanox)
    (schedule-working-timetable-id :initarg :schedule-wtt-id)
    (schedule-start-date :initarg :schedule-start-date)))
-
+@export
 (defclass train-cancellation (train-movements-message)
   ((train-file-address :initarg :train-file-address)
    (train-service-code :initarg :train-service-code)
@@ -39,7 +40,7 @@
    (cancellation-reason-code :initarg :canx-reason-code)
    (origin-location-timestamp :initarg :orig-loc-timestamp)
    (cancellation-type :initarg :canx-type)))
-
+@export
 (defclass train-movement (train-movements-message)
   ((event-type :initarg :event-type)
    (gbtt-timestamp :initarg :gbtt-timestamp)
@@ -69,7 +70,7 @@
    (planned-event-type :initarg :planned-event-type)
    (next-report-stanox :initarg :next-report-stanox)
    (line :initarg :line-ind)))
-
+@export
 (defclass train-reinstatement (train-movements-message)
   ((current-train-id :initarg :current-train-id)
    (original-location-timestamp :initarg :original-loc-timestamp)
@@ -81,7 +82,7 @@
    (location-stanox :initarg :loc-stanox)
    (original-location-stanox :initarg :original-loc-stanox)
    (reinstatement-timestamp :initarg :reinstatement-timestamp)))
-
+@export
 (defclass change-of-origin (train-movements-message)
   ((reason-code :initarg :reason-code)
    (current-train-id :initarg :current-train-id)
@@ -94,14 +95,14 @@
    (division-code :initarg :division-code)
    (location-stanox :initarg :loc-stanox)
    (original-location-stanox :initarg :original-loc-stanox)))
-
+@export
 (defclass change-of-identity (train-movements-message)
   ((current-train-id :initarg :current-train-id)
    (train-file-address :initarg :train-file-address)
    (train-service-code :initarg :train-service-code)
    (revised-train-id :initarg :revised-train-id)
    (event-timestamp :initarg :event-timestamp)))
-
+@export
 (defclass change-of-location (train-movements-message)
   ((original-location-timestamp :initarg :original-loc-timestamp)
    (current-train-id :initarg :current-train-id)
